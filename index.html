@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>picture manipulations</title>
+    <!-- <script src="libraries/p5.min.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/objectdetect.frontalface.js" type="text/javascript"></script>
+    <script src="libraries/objectdetect.js" type="text/javascript"></script> -->
+
+    <script src="./libraries/p5.min.js"></script>
+    <script src="./libraries/p5.dom.js"></script>
+    <script src="./libraries/objectdetect.js"></script>
+    <script src="./libraries/objectdetect.frontalface.js"></script>
+    <script src="./libraries/beatDetect.js"></script>
+    <script src="./libraries/p5.sound.js"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="grayAndBright.js" type="text/javascript"></script>
+    <script src="rgbChannels.js" type="text/javascript"></script>
+    <script src="rgbThreshold.js" type="text/javascript"></script>
+    <script src="hsbChannel.js" type="text/javascript"></script>
+    <script src="ycbcrChannel.js" type="text/javascript"></script>
+    <script src="hsbThreshold.js" type="text/javascript"></script>
+    <script src="ycbcrThreshold.js" type="text/javascript"></script>
+    <script src="faceDetection.js" type="text/javascript"></script>
+    <script src="keyFilters.js" type="text/javascript"></script>
+    <script src="blurFilter.js" type="text/javascript"></script>
+    <script src="pixelatedFilter.js" type="text/javascript"></script>
+    <script src="grayFilter.js" type="text/javascript"></script>
+    <script src="hsbFilter.js" type="text/javascript"></script>
+    <script src="beatFilter.js" type="text/javascript"></script>
+
+      
+    <style> 
+      body {padding: 0; margin: 0;} 
+      canvas {vertical-align: top;} 
+      #redSlider
+      {
+        position: absolute;
+        top: 410px;
+        left: 33px;
+      }
+
+      #greenSlider
+      {
+        position: absolute;
+        top: 410px;
+        left: 213px;
+      }
+
+      #blueSlider
+      {
+        position: absolute;
+        top: 410px;
+        left: 393px;
+      }
+
+      #hsbSlider
+      {
+        position: absolute;
+        top: 730px;
+        left: 213px;
+      }
+
+      #ycbcrSlider
+      {
+        position: absolute;
+        top: 730px;
+        left: 393px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="redSlider"></div>
+    <div id="greenSlider"></div>
+    <div id="blueSlider"></div>
+    <div id="hsbSlider"></div>
+    <div id="ycbcrSlider"></div>
+  </body>
+</html>
